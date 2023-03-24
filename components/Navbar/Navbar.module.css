@@ -1,0 +1,25 @@
+.navContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 12em;
+}
+
+.navContainer ul {
+    display: flex;
+    gap: 30px;
+}
+
+.navContainer li {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 600px) {
+    .navContainer ul {
+        gap: 20px;
+
+    }
+}
